@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leyendas del Fútbol</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ffde59,#ff914d,#38b6ff);
+    color:#222;
+}
+
+/* CABECERA */
+header{
+    background:#ff5757;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-bottom:5px solid #000;
+}
+
+header h1{
+    font-size:3em;
+    text-shadow:3px 3px #000;
+}
+
+/* MENU */
+nav{
+    background:#00c2a8;
+    padding:15px;
+    border-bottom:4px solid #000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-size:1.1em;
+    background:#ffbd59;
+    padding:10px 20px;
+    border-radius:25px;
+    border:3px solid #000;
+}
+
+nav a:hover{
+    background:#fff;
+    color:#000;
+}
+
+/* PRINCIPAL */
+main{
+    padding:30px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:2em;
+}
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.tarjeta{
+    background:white;
+    padding:20px;
+    border-radius:25px;
+    border:4px solid #000;
+    box-shadow:8px 8px 0px #000;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px);
+}
+
+.tarjeta h3{
+    color:#ff5757;
+    margin-bottom:10px;
+}
+
+.tarjeta p{
+    text-align:justify;
+    line-height:1.5;
+}
+
+/* FOOTER */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    border-top:5px solid #000;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>⚽ Leyendas del Fútbol ⚽</h1>
+    <p>Los 10 mejores jugadores de la historia</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Ranking</a></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<h2>🏆 Top 10 Mejores Jugadores de la Historia</h2>
+
+<div class="tarjetas">
+
+<div class="tarjeta">
+<h3>1. Lionel Messi</h3>
+<p>Considerado por muchos como el mejor jugador de todos los tiempos. Ganó múltiples Balones de Oro, conquistó la Copa del Mundo con Argentina en 2022 y destacó por su increíble habilidad, visión de juego y capacidad goleadora.</p>
+</div>
+
+<div class="tarjeta">
+<h3>2. Pelé</h3>
+<p>La leyenda brasileña conquistó tres Copas del Mundo (1958, 1962 y 1970). Fue un símbolo del fútbol mundial y marcó más de mil goles a lo largo de su carrera.</p>
+</div>
+
+<div class="tarjeta">
+<h3>3. Diego Maradona</h3>
+<p>Ídolo argentino que llevó a su selección a ganar el Mundial de 1986. Su talento, regate y liderazgo lo convirtieron en una figura eterna del deporte.</p>
+</div>
+
+<div class="tarjeta">
+<h3>4. Cristiano Ronaldo</h3>
+<p>Uno de los máximos goleadores de la historia. Ganó títulos en Inglaterra, España e Italia, además de una Eurocopa con Portugal. Destaca por su esfuerzo y capacidad física.</p>
+</div>
+
+<div class="tarjeta">
+<h3>5. Johan Cruyff</h3>
+<p>Revolucionó el fútbol con el concepto de "fútbol total". Brilló con el Ajax y la selección neerlandesa, dejando una huella imborrable también como entrenador.</p>
+</div>
+
+<div class="tarjeta">
+<h3>6. Zinedine Zidane</h3>
+<p>Elegancia y calidad definieron la carrera del francés. Ganó el Mundial de 1998 y la Eurocopa de 2000, siendo uno de los centrocampistas más talentosos de la historia.</p>
+</div>
+
+<div class="tarjeta">
+<h3>7. Ronaldo Nazário</h3>
+<p>Conocido como "El Fenómeno", maravilló al mundo con su velocidad y definición. Ganó dos Mundiales con Brasil y fue uno de los delanteros más espectaculares de siempre.</p>
+</div>
+
+<div class="tarjeta">
+<h3>8. Franz Beckenbauer</h3>
+<p>Apodado "El Kaiser", cambió la forma de jugar como defensa. Ganó el Mundial como jugador y como entrenador con Alemania.</p>
+</div>
+
+<div class="tarjeta">
+<h3>9. Alfredo Di Stéfano</h3>
+<p>Leyenda del Real Madrid, lideró una de las épocas más exitosas del club. Fue un futbolista completo que podía desempeñarse en cualquier posición.</p>
+</div>
+
+<div class="tarjeta">
+<h3>10. Ronaldinho</h3>
+<p>El brasileño llevó la alegría al fútbol. Con sus regates, sonrisas y creatividad conquistó a los aficionados de todo el mundo y ganó el Mundial de 2002.</p>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+    Hugo Mesas Peinado — 2º ESO
+</footer>
+
+</body>
+</html>
